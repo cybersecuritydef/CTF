@@ -11,7 +11,6 @@ try:
 				flag += chr(ch)
 				print(flag)
 				break
-		print("Position: {}\n".format(pos))
 	print("\nFinished\n")
 except:
 	exit(0)
