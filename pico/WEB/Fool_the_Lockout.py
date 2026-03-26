@@ -27,7 +27,7 @@ try:
 		elif max_req == 10:
 			print("Sleep")
 			time.sleep(30)
-			print("Current brute")
+			print("Continue brute")
 			max_req = 0
 		index += 1
 		
