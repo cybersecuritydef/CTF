@@ -28,7 +28,6 @@ try:
 			print("Sleep")
 			time.sleep(30)
 			print("Continue brute")
-			max_req = 0
 		
 			
 	print("\nFinished\n")
